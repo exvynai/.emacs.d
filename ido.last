@@ -12,14 +12,15 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "README.md"
  "init.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/exvynai/.emacs.d/" (25289 52386 772860 301000) "elpa/" "init.el~" "config.org" "auto-save-list/" "init.el" "smex-items" "config.el" "./" "config.org~" "../")
+ ("/home/exvynai/.emacs.d/" (25289 54848 580844 627000) "elpa/" "config.org" "auto-save-list/" "init.el" "ido.last~" "smex-items" "config.el" "ido.last" "./" "README.md" "../" ".git/")
 
- ("/home/exvynai/" (25289 22696 864482 454000) ".bash_history" ".profile" ".config/" ".fontconfig/" ".local/" ".emacs.d/" "Downloads/" ".bashrc" ".ssh/" ".gnupg/" "Documents/" ".cache/" ".bash_logout" "snap/" "Music/" "./" ".sudo_as_admin_successful" "Templates/" "Pictures/" "Videos/" "../" "Desktop/" "Public/")
+ ("/home/exvynai/" (25289 54818 205347 145000) ".bash_history" ".profile" ".config/" ".fontconfig/" ".local/" ".emacs.d/" "Downloads/" ".bashrc" ".ssh/" ".gnupg/" "Documents/" ".cache/" ".bash_logout" "snap/" ".gitconfig" "Music/" "./" ".sudo_as_admin_successful" "Templates/" "Pictures/" "Videos/" "../" "Desktop/" "Public/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
