@@ -3,6 +3,8 @@
 
 (setq inhibit-startup-message t)
 
+(global-subword-mode 1)
+
 (setq make-backup-file nil)
 (setq auto-save-default nil)
 
@@ -27,6 +29,8 @@
   :ensure t
   :init
   (which-key-mode))
+
+(setq org-src-window-setup 'current-window)
 
 (use-package org-bullets
   :ensure t
@@ -82,3 +86,7 @@
   (balance-windows)
   (other-window 1))
 (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
+
+(use-package sudo-edit
+  :ensure t
+  :bind ("s-e" . sudo-edit))

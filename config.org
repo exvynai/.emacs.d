@@ -6,6 +6,10 @@
 
   (setq inhibit-startup-message t)
 #+END_SRC
+** Subword
+#+BEGIN_SRC emacs-lisp
+  (global-subword-mode 1)
+#+END_SRC
 ** No backups or Saves
 #+BEGIN_SRC emacs-lisp
   (setq make-backup-file nil)
@@ -52,6 +56,11 @@
     (which-key-mode))
 #+END_SRC
 * Org
+** Basic config
+*** No Split
+#+BEGIN_SRC emacs-lisp
+  (setq org-src-window-setup 'current-window)
+#+END_SRC
 ** Org Bullets
 #+BEGIN_SRC emacs-lisp
   (use-package org-bullets
@@ -129,4 +138,10 @@
     (balance-windows)
     (other-window 1))
   (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
+#+END_SRC
+* Sudo Edit
+#+BEGIN_SRC emacs-lisp
+  (use-package sudo-edit
+    :ensure t
+    :bind ("s-e" . sudo-edit))
 #+END_SRC
