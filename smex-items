@@ -1,16 +1,17 @@
 
 ;; ----- smex-history -----
 (
+ customize
  rainbow-mode
  cd
  5x5
  arp
  dbx
  dig
- erc
 )
 
 ;; ----- smex-data -----
 (
  (rainbow-mode . 2)
+ (customize . 1)
 )

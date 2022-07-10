@@ -2,22 +2,42 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/Vir20/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/Vir20/AppData/" . "Roaming/")
+ ("c:/Users/Vir20/" . "AppData/")
+ ("c:/Users/" . "Vir20/")
+ ("c:/" . "Users/")
  ("/home/exvynai/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/Vir20/AppData/Roaming/.emacs.d/"
  "/home/exvynai/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "README.md"
  "init.el"
+ "README.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/Vir20/AppData/Roaming/.emacs.d/" (25291 750 0 0) "tramp" "smex-items" "README.md" "init.el" "ido.last~" "ido.last" "elpa/" "config.org" "config.el" "auto-save-list/" ".git/" "../" "./")
+
+ ("c:/Users/Vir20/AppData/Roaming/" (25291 570 0 0) "Microsoft/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/Vir20/AppData/" (25290 62283 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/Vir20/" (25291 554 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".gitconfig" "../" "./")
+
+ ("c:/Users/" (25290 62786 0 0) "Vir20/" "Public/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
+
+ ("c:/Program Files/" (25291 360 0 0) "WindowsPowerShell/" "WindowsApps/" "Windows Sidebar/" "Windows Security/" "Windows Portable Devices/" "Windows Photo Viewer/" "Windows NT/" "Windows Multimedia Platform/" "Windows Media Player/" "Windows Mail/" "Windows Defender/" "Uninstall Information/" "PCHealthCheck/" "ModifiableWindowsApps/" "Microsoft Update Health Tools/" "Internet Explorer/" "Google/" "Git/" "Emacs/" "desktop.ini" "Common Files/" "AMD/" "../" "./")
+
+ ("c:/Program Files/Emacs/" (25290 63103 0 0) "Uninstall.exe" "emacs-28.1/" "../" "./")
+
  ("/home/exvynai/.emacs.d/" (25289 54848 580844 627000) "elpa/" "config.org" "auto-save-list/" "init.el" "ido.last~" "smex-items" "config.el" "ido.last" "./" "README.md" "../" ".git/")
 
  ("/home/exvynai/" (25289 54818 205347 145000) ".bash_history" ".profile" ".config/" ".fontconfig/" ".local/" ".emacs.d/" "Downloads/" ".bashrc" ".ssh/" ".gnupg/" "Documents/" ".cache/" ".bash_logout" "snap/" ".gitconfig" "Music/" "./" ".sudo_as_admin_successful" "Templates/" "Pictures/" "Videos/" "../" "Desktop/" "Public/")
