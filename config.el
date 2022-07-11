@@ -5,6 +5,9 @@
 
 (global-subword-mode 1)
 
+(setq display-time-24hr-format t)
+(display-time-mode 1)
+
 (setq make-backup-file nil)
 (setq auto-save-default nil)
 
@@ -31,11 +34,35 @@
   (which-key-mode))
 
 (setq org-src-window-setup 'current-window)
+(add-to-list 'org-structure-template-alist
+	     '("el" "#+BEGIN_SRC emacs-lisp\n?\n#+END_SRC"))
 
 (use-package org-bullets
   :ensure t
   :config
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
+
+(use-package dashboard
+  :ensure t
+  :config
+  (dashboard-setup-startup-hook)
+  (setq dashboard-items '((recents . 10)))
+  (setq dashboard-banner-logo-title "It's Time to Code, Exy!"))
+
+(use-package spaceline
+  :ensure t
+  :config
+  (require 'spaceline-config)
+  (setq powerline-default-separator (quote arrow))
+  (spaceline-spacemacs-theme))
+
+(use-package  diminish
+  :ensure t
+  :init
+  (diminish 'hungry-delete-mode)
+  (diminish 'beacon-mode)
+  (diminish 'subword-mode)
+  (diminish 'which-key-mode))
 
 (setq ido-enable-flex-matching nil)
 (setq ido-create-new-buffer 'always)
@@ -90,3 +117,8 @@
 (use-package sudo-edit
   :ensure t
   :bind ("s-e" . sudo-edit))
+
+(use-package company
+  :ensure t
+  :init
+  (add-hook 'after-init-hook 'global-company-model))

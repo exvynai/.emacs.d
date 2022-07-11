@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/exvynai/dwm-dotfiles/" . "dwm/")
  ("c:/Users/Vir20/AppData/Roaming/" . ".emacs.d/")
  ("c:/Users/Vir20/AppData/" . "Roaming/")
  ("c:/Users/Vir20/" . "AppData/")
@@ -12,18 +13,31 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "c:/Users/Vir20/AppData/Roaming/.emacs.d/"
  "/home/exvynai/.emacs.d/"
+ "/home/exvynai/"
+ "/home/exvynai/dwm-dotfiles/dwm/"
+ "c:/Users/Vir20/AppData/Roaming/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "config.org"
  "init.el"
+ ".bashrc"
+ "config.def.h"
  "README.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/exvynai/.emacs.d/" (25292 19093 94033 556000) "smex-items" "README.md" "./" "recentf" "ido.last~" "config.org" ".git/" "tramp" "../" "auto-save-list/" "config.el" "init.el" "ido.last" "elpa/")
+
+ ("/home/exvynai/" (25292 16834 168930 383000) ".viminfo" "./" "Desktop/" ".gitconfig" "Downloads/" ".bashrc" "Documents/" "Pictures/" ".mozilla/" ".config/" "../" ".bash_history" "Music/" "Templates/" ".emacs.d/" ".bashrc~" "Videos/" ".Xauthority" ".bash_profile" ".cache/" ".bash_logout" "Public/" "dwm-dotfiles/" ".xinitrc" ".local/")
+
+ ("/home/exvynai/dwm-dotfiles/dwm/" (25292 10174 528948 259000) "dwm" "config.h" "./" "util.o" "drw.h" "drw.c" "util.h" "config.mk" "../" "dwm.o" "dwm.c" "README" "config.def.h" "LICENSE" "dwm.png" "transient.c" "dwm.1" "drw.o" "Makefile" "util.c")
+
+ ("/home/exvynai/dwm-dotfiles/" (25292 7231 63271 345000) "dwm/" "README.md" "./" "notes.txt" ".git/" "dmenu/" "../" "scripts/" "mybashrc" "st/" "purple-roofs.jpg" "install.sh" "girl-red-mask.jpg" "myxinitrc" "anime-girl-red.jpg" "dwmblocks/")
+
  ("c:/Users/Vir20/AppData/Roaming/.emacs.d/" (25291 750 0 0) "tramp" "smex-items" "README.md" "init.el" "ido.last~" "ido.last" "elpa/" "config.org" "config.el" "auto-save-list/" ".git/" "../" "./")
 
  ("c:/Users/Vir20/AppData/Roaming/" (25291 570 0 0) "Microsoft/" "Adobe/" ".emacs.d/" "../" "./")
@@ -37,10 +51,6 @@
  ("c:/Program Files/" (25291 360 0 0) "WindowsPowerShell/" "WindowsApps/" "Windows Sidebar/" "Windows Security/" "Windows Portable Devices/" "Windows Photo Viewer/" "Windows NT/" "Windows Multimedia Platform/" "Windows Media Player/" "Windows Mail/" "Windows Defender/" "Uninstall Information/" "PCHealthCheck/" "ModifiableWindowsApps/" "Microsoft Update Health Tools/" "Internet Explorer/" "Google/" "Git/" "Emacs/" "desktop.ini" "Common Files/" "AMD/" "../" "./")
 
  ("c:/Program Files/Emacs/" (25290 63103 0 0) "Uninstall.exe" "emacs-28.1/" "../" "./")
-
- ("/home/exvynai/.emacs.d/" (25289 54848 580844 627000) "elpa/" "config.org" "auto-save-list/" "init.el" "ido.last~" "smex-items" "config.el" "ido.last" "./" "README.md" "../" ".git/")
-
- ("/home/exvynai/" (25289 54818 205347 145000) ".bash_history" ".profile" ".config/" ".fontconfig/" ".local/" ".emacs.d/" "Downloads/" ".bashrc" ".ssh/" ".gnupg/" "Documents/" ".cache/" ".bash_logout" "snap/" ".gitconfig" "Music/" "./" ".sudo_as_admin_successful" "Templates/" "Pictures/" "Videos/" "../" "Desktop/" "Public/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
