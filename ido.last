@@ -2,55 +2,57 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/exvynai/dwm-dotfiles/" . "dwm/")
- ("c:/Users/Vir20/AppData/Roaming/" . ".emacs.d/")
- ("c:/Users/Vir20/AppData/" . "Roaming/")
- ("c:/Users/Vir20/" . "AppData/")
- ("c:/Users/" . "Vir20/")
- ("c:/" . "Users/")
- ("/home/exvynai/" . ".emacs.d/")
+ ("/home/exvynai/Documents/code/python-projects/" . "library-management-system/")
+ ("/home/exvynai/Documents/code/" . "python-projects/")
+ ("/home/exvynai/.config/" . "neofetch/")
+ ("/home/exvynai/Documents/college/" . "python/")
+ ("/home/exvynai/Documents/" . "code/")
+ ("/home/exvynai/" . "Documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/exvynai/.emacs.d/"
- "/home/exvynai/"
- "/home/exvynai/dwm-dotfiles/dwm/"
- "c:/Users/Vir20/AppData/Roaming/.emacs.d/"
+ "/home/exvynai/Documents/code/python-projects/library-management-system/"
+ "/home/exvynai/Documents/code/python-projects/py-lab-questions-reva/"
+ "/home/exvynai/Documents/code/"
+ "/home/exvynai/.config/neofetch/"
+ "/home/exvynai/Documents/college/python/"
+ "/home/exvynai/Documents/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "config.org"
- "init.el"
- ".bashrc"
- "config.def.h"
- "README.md"
+ "users.py"
+ "testingq1.py"
+ "q1.py"
+ "test-reg.txt"
+ "regex-test.py"
+ "config.conf"
+ "syllabus-ia2.org"
+ "roadmap-linux.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/exvynai/.emacs.d/" (25292 19093 94033 556000) "smex-items" "README.md" "./" "recentf" "ido.last~" "config.org" ".git/" "tramp" "../" "auto-save-list/" "config.el" "init.el" "ido.last" "elpa/")
+ ("/home/exvynai/Documents/code/python-projects/library-management-system/" (25294 42100 351236 925000) "./" "users.py" "../")
 
- ("/home/exvynai/" (25292 16834 168930 383000) ".viminfo" "./" "Desktop/" ".gitconfig" "Downloads/" ".bashrc" "Documents/" "Pictures/" ".mozilla/" ".config/" "../" ".bash_history" "Music/" "Templates/" ".emacs.d/" ".bashrc~" "Videos/" ".Xauthority" ".bash_profile" ".cache/" ".bash_logout" "Public/" "dwm-dotfiles/" ".xinitrc" ".local/")
+ ("/home/exvynai/Documents/code/python-projects/" (25294 41837 954633 486000) "README.md" "./" "library-management-system/" ".git/" "../" "py-lab-questions-reva/" "whatsapp-bot/")
 
- ("/home/exvynai/dwm-dotfiles/dwm/" (25292 10174 528948 259000) "dwm" "config.h" "./" "util.o" "drw.h" "drw.c" "util.h" "config.mk" "../" "dwm.o" "dwm.c" "README" "config.def.h" "LICENSE" "dwm.png" "transient.c" "dwm.1" "drw.o" "Makefile" "util.c")
+ ("/home/exvynai/Documents/code/python-projects/py-lab-questions-reva/" (25294 27685 451918 659000) "./" "../" "q1.py")
 
- ("/home/exvynai/dwm-dotfiles/" (25292 7231 63271 345000) "dwm/" "README.md" "./" "notes.txt" ".git/" "dmenu/" "../" "scripts/" "mybashrc" "st/" "purple-roofs.jpg" "install.sh" "girl-red-mask.jpg" "myxinitrc" "anime-girl-red.jpg" "dwmblocks/")
+ ("/home/exvynai/" (25294 40093 524286 334000) ".viminfo" "./" "Desktop/" ".gitconfig" "Downloads/" ".bashrc" "Documents/" "Pictures/" ".emacs-old.d/" ".mozilla/" ".config/" "../" ".bash_history" "Music/" "Templates/" ".emacs.d/" "Videos/" ".Xauthority" ".bash_profile" ".cache/" ".bash_logout" "Public/" "dwm-dotfiles/" ".xinitrc" ".local/")
 
- ("c:/Users/Vir20/AppData/Roaming/.emacs.d/" (25291 750 0 0) "tramp" "smex-items" "README.md" "init.el" "ido.last~" "ido.last" "elpa/" "config.org" "config.el" "auto-save-list/" ".git/" "../" "./")
+ ("/home/exvynai/Documents/" (25294 25535 109580 324000) "college/" "./" "reva-wifi" "code/" "../" "roadmap-linux.org" "ghtoken.txt")
 
- ("c:/Users/Vir20/AppData/Roaming/" (25291 570 0 0) "Microsoft/" "Adobe/" ".emacs.d/" "../" "./")
+ ("/home/exvynai/Documents/code/" (25294 26226 739440 499000) "./" "test-reg.txt" "regex-test.py" "../" "python-projects/")
 
- ("c:/Users/Vir20/AppData/" (25290 62283 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+ ("/home/exvynai/Documents/college/python/" (25294 14297 574063 987000) "./" "../" "syllabus-ia2.org")
 
- ("c:/Users/Vir20/" (25291 554 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".gitconfig" "../" "./")
+ ("/home/exvynai/.config/neofetch/" (25294 14610 380717 807000) "./" "../" "config.conf")
 
- ("c:/Users/" (25290 62786 0 0) "Vir20/" "Public/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
+ ("/home/exvynai/.config/" (25293 21685 914999 349000) "pulse/" "./" "mimeapps.list" "xfce4/" "nitrogen/" "yay/" "gtk-2.0/" "user-dirs.locale" "../" "user-dirs.dirs" "mpv/" "gtk-3.0/" "bashtop/" "neofetch/" "dconf/" "wal/" "QtProject.conf" "obs-studio/")
 
- ("c:/Program Files/" (25291 360 0 0) "WindowsPowerShell/" "WindowsApps/" "Windows Sidebar/" "Windows Security/" "Windows Portable Devices/" "Windows Photo Viewer/" "Windows NT/" "Windows Multimedia Platform/" "Windows Media Player/" "Windows Mail/" "Windows Defender/" "Uninstall Information/" "PCHealthCheck/" "ModifiableWindowsApps/" "Microsoft Update Health Tools/" "Internet Explorer/" "Google/" "Git/" "Emacs/" "desktop.ini" "Common Files/" "AMD/" "../" "./")
-
- ("c:/Program Files/Emacs/" (25290 63103 0 0) "Uninstall.exe" "emacs-28.1/" "../" "./")
+ ("/home/exvynai/Documents/college/" (25294 14223 697400 362000) "./" "../" "python/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -1,4 +1,4 @@
-;;; spacemacs-theme-autoloads.el --- automatically extracted autoloads
+;;; spacemacs-theme-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -12,7 +12,7 @@
 
 (when load-file-name (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "spacemacs-common" '("create-spacemacs-theme" "spacemacs-theme-" "true-color-p")))
+(register-definition-prefixes "spacemacs-common" '("create-spacemacs-theme" "spacemacs-theme-" "true-color-p"))
 
 ;;;***
 
@@ -20,7 +20,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from spacemacs-dark-theme.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "spacemacs-dark-theme" '("spacemacs-dark")))
+(register-definition-prefixes "spacemacs-dark-theme" '("spacemacs-dark"))
 
 ;;;***
 
@@ -28,7 +28,7 @@
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from spacemacs-light-theme.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "spacemacs-light-theme" '("spacemacs-light")))
+(register-definition-prefixes "spacemacs-light-theme" '("spacemacs-light"))
 
 ;;;***
 

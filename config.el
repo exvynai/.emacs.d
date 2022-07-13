@@ -1,68 +1,65 @@
-(tool-bar-mode -1)
-(menu-bar-mode -1)
-
-(setq inhibit-startup-message t)
-
-(global-subword-mode 1)
-
-(setq display-time-24hr-format t)
-(display-time-mode 1)
-
 (setq make-backup-file nil)
 (setq auto-save-default nil)
 
-(defalias 'yes-or-no-p 'y-or-n-p)
+(global-subword-mode 1)
 
-(setq ring-bell-function 'ignore)
-
-(when window-system (global-prettify-symbols-mode t))
-
-(when window-system (global-hl-line-mode t))
+(setq electric-pair-pairs '(
+			    (?\( . ?\))
+			    (?\[ . ?\])
+			    (?\{ . ?\})
+			    (?\" . ?\")
+			    (?\' . ?\')
+			    ))
+(electric-pair-mode t)
 
 (setq scroll-conservatively 100)
 
-(defvar my-term-shell "/bin/bash")
-(defadvice ansi-term (before force-bash)
-  (interactive (list my-term-shell)))
-(ad-activate 'ansi-term)
+(setq ring-bell-function 'ignore)
 
-(global-set-key (kbd "<s-return>") 'ansi-term)
+(when window-system (global-hl-line-mode t))
+
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(scroll-bar-mode -1)
+
+(setq inhibit-startup-message t)
 
 (use-package which-key
   :ensure t
   :init
   (which-key-mode))
 
+(use-package beacon
+  :ensure t
+  :init
+  (beacon-mode 1))
+
+(use-package hungry-delete
+  :ensure t
+  :config (global-hungry-delete-mode))
+
+(use-package sudo-edit
+  :ensure t
+  :bind ("s-e" . sudo-edit))
+
+(when window-system (global-prettify-symbols-mode t))
+
+(defvar my-term-shell "/bin/bash")
+(defadvice ansi-term (before force-bash)
+  (interactive (list my-term-shell)))
+(ad-activate 'ansi-term)
+
+(global-set-key (kbd "C-c t") 'ansi-term)
+
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 (setq org-src-window-setup 'current-window)
-(add-to-list 'org-structure-template-alist
-	     '("el" "#+BEGIN_SRC emacs-lisp\n?\n#+END_SRC"))
+(global-set-key (kbd "C-c i") 'org-insert-structure-template)
 
 (use-package org-bullets
   :ensure t
   :config
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
-
-(use-package dashboard
-  :ensure t
-  :config
-  (dashboard-setup-startup-hook)
-  (setq dashboard-items '((recents . 10)))
-  (setq dashboard-banner-logo-title "It's Time to Code, Exy!"))
-
-(use-package spaceline
-  :ensure t
-  :config
-  (require 'spaceline-config)
-  (setq powerline-default-separator (quote arrow))
-  (spaceline-spacemacs-theme))
-
-(use-package  diminish
-  :ensure t
-  :init
-  (diminish 'hungry-delete-mode)
-  (diminish 'beacon-mode)
-  (diminish 'subword-mode)
-  (diminish 'which-key-mode))
 
 (setq ido-enable-flex-matching nil)
 (setq ido-create-new-buffer 'always)
@@ -80,8 +77,6 @@
   :init (smex-initialize)
   :bind
   ("M-x" . smex))
-
-(global-set-key (kbd "C-x b") 'ido-switch-buffer)
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
@@ -114,11 +109,16 @@
   (other-window 1))
 (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
 
-(use-package sudo-edit
+(use-package dashboard
   :ensure t
-  :bind ("s-e" . sudo-edit))
+  :config
+  (dashboard-setup-startup-hook)
+  (setq dashboard-items '((recents . 5)))
+  (setq dashboard-banner-logo-title "Welcome back, Exy!"))
 
-(use-package company
+(use-package spaceline
   :ensure t
-  :init
-  (add-hook 'after-init-hook 'global-company-model))
+  :config
+  (require 'spaceline-config)
+  (setq powerline-default-separator (quote arrow))
+  (spaceline-spacemacs-theme))

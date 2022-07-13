@@ -1,20 +1,16 @@
 
 ;; ----- smex-history -----
 (
- ansi-term
- package-list-packages
- customize-themes
- customize
- rainbow-mode
  cd
  5x5
+ arp
+ dbx
+ dig
+ erc
+ ert
 )
 
 ;; ----- smex-data -----
 (
- (rainbow-mode . 2)
- (customize . 2)
- (customize-themes . 1)
- (package-list-packages . 1)
- (ansi-term . 1)
+ 
 )
